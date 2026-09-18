@@ -28,3 +28,4 @@ For Cloudflare Pages:
 
 ## Xtream security note
 Xtream username/password are submitted to the server-side Pages Function per request and are not persisted as passwords in Supabase. The returned playback URL still contains the Xtream credentials because standard Xtream live-stream URLs require them; a full media-stream proxy would be needed to hide them from the browser/network.
+j
